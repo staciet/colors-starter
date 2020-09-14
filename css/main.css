@@ -59,6 +59,11 @@ footer {
 /* Change the background colors below */
 
 @media (min-width: 768px) {
+
+  .col-3 {
+      width: 50%;
+    }
+
   header {
     background-color: SpringGreen;
   }
@@ -73,6 +78,7 @@ footer {
 
   #column-3 {
     background-color: Plum;
+    width: 100%;
   }
 
   footer {
@@ -84,6 +90,11 @@ footer {
 
 /*---------- Desktops ----------*/
 @media (min-width: 1200px) {
+
+  .col-3 {
+    width: 33.33%;
+  }
+
   header {
     background-color: DarkBlue;
   }
@@ -98,6 +109,7 @@ footer {
 
   #column-3 {
     background-color: DarkRed;
+    width: 33.33%;
   }
 
   footer {
